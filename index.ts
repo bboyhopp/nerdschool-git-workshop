@@ -1,8 +1,15 @@
-/**
- * Funcion that greets a person
- * @param firstName First name of person
- * @param lastName Last name of person
- */
-export const greeting = (firstName: string, lastName: string) => {
-    console.log(`Hello ${firstName} ${lastName}`);
-};
+const people = [
+    { firstname: 'Magnus', lastname: 'Magnusson' },
+    { firstname: 'Stefan', lastname: 'Stefanson' },
+  ]
+  
+  export const greeting = (firstname: string, lastname: string) => {
+    console.log(`Hei hei ${firstname} ${lastname}`);
+  }
+  
+  export const greetTheGang = () => {
+    people.forEach((person) => {
+      greeting(person.firstname, person.lastname);
+    });
+  }
+  
