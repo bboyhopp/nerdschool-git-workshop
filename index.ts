@@ -1,7 +1,5 @@
 const elements = [
     { firstname: 'Arne', lastname: 'Arnesen' },
-const elements = [
-    { firstname: 'Arne', lastname: 'Arnesen' },
     { firstname: 'Magnus', lastname: 'Magnusson' },
     { firstname: 'Siri', lastname: 'Sirisen' },
     { firstname: 'Stefan', lastname: 'Stefanson' },
