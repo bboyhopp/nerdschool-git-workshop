@@ -1,5 +1,5 @@
 const truth = {
     javascript: {
-        seriousness: "not ideal"
+        seriousness: "silly"
     }
 }
