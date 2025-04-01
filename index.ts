@@ -1,7 +1,8 @@
 /**
  * Funcion that greets a person
- * @param name Name of person
+ * @param firstName First name of person
+ * @param lastName Last name of person
  */
-export const greeting = (name: string) => {
-    console.log(`Hello ${name}`);
+export const greeting = (firstName: string, lastName: string) => {
+    console.log(`Hello ${firstName} ${lastName}`);
 };
